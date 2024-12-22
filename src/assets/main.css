@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Involve';
+  src: url(../fonts/Involve-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Involve Bold';
+  src: url(../fonts/Involve-Bold.ttf);
+}
+
+
+body {
+  background-color: var(--back);
+
+}
+
+::selection {
+  background-color: #663399;
+  color: #020402;
+}
+
+* {
+  font-family: "Involve", sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --back: #F8F8F8;
+  --viol: #372579;
+  --color-footer: #020401;
+  --color-head: #cccccc;
+  --color-img: #F8F8F8;
+  --color-text: #020401;
+  --color-p: #959494;
+  --color-name: #959494;
+  --color-bord: #020402;
+  --color-tab: #BABBBA;
+  --color-but: #8DC63F;
+  --color-btn: #0072ce;
+}
+
+.dark {
+  --back: #0F0F0F;
+  --viol: #372579;
+  --color-footer: #959493;
+  --color-head: #cccccc;
+  --color-img: #0F0F0F;
+  --color-text: #F8F8F8;
+  --color-p: #020402;
+  --color-name: #959494;
+  --color-bord: #F8F8F8;
+  --color-tab: #959494;
+  --color-but: #8DC63F;
+  --color-btn: #0072ce;
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  
+}
